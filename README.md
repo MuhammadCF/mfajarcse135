@@ -1,3 +1,66 @@
-This is the repo for mfajarcse135 project
-A project to build an apache based website.
-test
+Muhammad Fajar
+A16099230
+I am the only member of my team.
+
+grader:
+pass: fajargrader
+private key:
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+-----END OPENSSH PRIVATE KEY-----
+
+site url: https://mfajarcse135.site/
+
+autodeploy: I use appleboy ssh-action via github-action.
+I set up the hook on every push on main, it will ssh into my droplet then pull from the update.
+
+site password and username:
+username: mfajar
+pass: fajarpwd
+
+The HTML was reduced in about 30% of its former size, I tested it again with giftofspeed tester but the tester
+only works with the other subdirectory without password wall. I used mod-deflate following a really helpful guidance by
+Darren Wu in Slack. (bless his soul)
+
+changing server header:
+I used an apache module called mod-security ("security2" to be precise) I set up some additional configs in apache.conf and every worked.
+
+
+
+
+
