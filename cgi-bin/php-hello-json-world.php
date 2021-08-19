@@ -21,7 +21,7 @@ echo <<<EOL
 <hr/>\n
 EOL;
 echo "Hello World<br/>\n";
-echo $body_json;
+echo "$body_json";
 
 echo "</body></html>";
 ?>
