@@ -13,7 +13,7 @@ $body = ['title' => 'Hello, PHP!',
     'message' => 'This page was generated with the PHP programming language',
     'time' => $currtime, 'IP' => $addr];
 
-$body_json = json_decode($body);
+$body_json = json_encode($body);
 
 echo <<<EOL
 <html><head><title>Hello CGI World</title></head>
