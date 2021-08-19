@@ -16,8 +16,12 @@ echo <<<EOL
 EOL;
 echo "HTTP Protocol: $prot <br/>\n";
 echo "HTTP Method: $method <br/>\n";
-echo "Query String: $_GET <br/>\n";
-echo "Message Body: $_POST <br/>\n";
+echo "Query String:<br/>\n";
+print_r($_GET);
+echo "<br/>"
+echo "Message Body:<br/>\n";
+print_r($_POST);
+echo "<br/>"
 
 echo "</body></html>";
 
