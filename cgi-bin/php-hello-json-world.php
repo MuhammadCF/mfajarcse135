@@ -13,5 +13,15 @@ $body = ['title' => 'Hello, PHP!',
     'message' => 'This page was generated with the PHP programming language',
     'time' => $currtime, 'IP' => $addr];
 
-echo json_decode($body);
+$body_json = json_decode($body);
+
+echo <<<EOL
+<html><head><title>Hello CGI World</title></head>
+<body><h1 align=center>Hello JSON World</h1>
+<hr/>\n
+EOL;
+echo "Hello World<br/>\n";
+echo $body_json;
+
+echo "</body></html>";
 ?>
