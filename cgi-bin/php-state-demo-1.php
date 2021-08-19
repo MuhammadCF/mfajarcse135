@@ -8,7 +8,14 @@ header("Content-Type: text/html");
 
 setcookie("CGISESSID", session_id());
 #$sid = $_COOKIE['CGISESSID'];
-$username = $_SESSION[session_id()] || $_POST['username'];
+if(is_null($_SESSION[session_id()])){
+
+    $username = $_POST['username'];
+}
+else{
+    $username = $_SESSION[session_id()];
+
+}
 $_SESSION[session_id()] = $username;
 
 
