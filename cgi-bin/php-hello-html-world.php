@@ -8,8 +8,8 @@ $addr = $_SERVER['REMOTE_ADDR'];
 header("Cache-Control: no-cache");
 header("Content-Type: text/html");
 echo <<<EOL
-<html><head><title>Hello CGI World</title></head>\
-<body><h1 align=center>Hello HTML World</h1>\
+<html><head><title>Hello CGI World</title></head>
+<body><h1 align=center>Hello HTML World</h1>
 <hr/>\n
 EOL;
 echo "Hello World<br/>\n";
