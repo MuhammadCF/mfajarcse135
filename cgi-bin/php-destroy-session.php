@@ -4,7 +4,6 @@
 session_start();
 
 #header("Cache-Control: no-cache");
-#header("Content-Type: text/html");
 
 $sid = $_COOKIE['CGISESSIDX'];
 #$username = $_POST['username'];
@@ -14,6 +13,7 @@ unset($_SESSION[$sid]);
 
 
 
+header("Content-Type: text/html");
 
 echo <<<EOL
 <html><head><title>PHP Session Destroyed</title></head>

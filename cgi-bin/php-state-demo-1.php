@@ -3,23 +3,23 @@
 
 session_start();
 
-#header("Cache-Control: no-cache");
-header("Content-Type: text/html");
-
 setcookie("CGISESSIDX", session_id());
+#header("Cache-Control: no-cache");
+
 #$sid = $_COOKIE['CGISESSID'];
 if(is_null($_SESSION[session_id()])){
-
+    
     $username = $_POST['username'];
 }
 else{
     $username = $_SESSION[session_id()];
-
+    
 }
 $_SESSION[session_id()] = $username;
 
 
 
+header("Content-Type: text/html");
 
 echo <<<EOL
 <html><head><title>PHP Sessions</title></head>

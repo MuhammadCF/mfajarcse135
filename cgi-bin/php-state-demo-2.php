@@ -4,7 +4,6 @@
 session_start();
 
 #header("Cache-Control: no-cache");
-header("Content-Type: text/html");
 
 $sid = $_COOKIE['CGISESSIDX'];
 #$username = $_POST['username'];
@@ -12,12 +11,13 @@ if(is_null($sid)){
     $username = NULL;
 }
 else{
-
+    
     $username = $_SESSION[$sid];
 }
 #setcookie("CGISESSID", session_id());
 
 
+header("Content-Type: text/html");
 
 echo <<<EOL
 <html><head><title>PHP Sessions</title></head>
