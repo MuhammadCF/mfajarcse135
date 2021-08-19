@@ -3,8 +3,10 @@
 $currtime = date('l jS \of F Y h:i:s A');
 $addr = $_SERVER['REMOTE_ADDR'];
 
-echo "Cache-Control: no-cache\n";
-echo "Content-type: text/html\n\n";
+// echo "Cache-Control: no-cache\n";
+// echo "Content-type: text/html\n\n";
+header("Cache-Control: no-cache");
+header("Content-Type: text/html");
 echo <<<EOL
 <html><head><title>Hello CGI World</title></head>\
 <body><h1 align=center>Hello HTML World</h1>\
