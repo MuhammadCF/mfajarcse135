@@ -14,7 +14,7 @@ echo <<<EOL
 EOL;
 echo "Environment Variables<br/>\n";
 foreach ($_SERVER as $var => $val){
-    echo "$var = $val\n";
+    echo "$var = $val <br/>";
 }
 
 echo "</body></html>";
