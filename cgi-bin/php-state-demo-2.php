@@ -6,7 +6,7 @@ session_start();
 #header("Cache-Control: no-cache");
 header("Content-Type: text/html");
 
-$sid = $_COOKIE['CGISESSID'];
+$sid = $_COOKIE['CGISESSIDX'];
 #$username = $_POST['username'];
 if(is_null($sid)){
     $username = NULL;

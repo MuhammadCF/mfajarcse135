@@ -6,7 +6,7 @@ session_start();
 #header("Cache-Control: no-cache");
 header("Content-Type: text/html");
 
-setcookie("CGISESSID", session_id());
+setcookie("CGISESSIDX", session_id());
 #$sid = $_COOKIE['CGISESSID'];
 if(is_null($_SESSION[session_id()])){
 
