@@ -5,11 +5,11 @@ session_start();
 
 #header("Cache-Control: no-cache");
 
-$sid = $_COOKIE['CGISESSIDX'];
+//$sid = $_COOKIE['CGISESSIDX'];
 #$username = $_POST['username'];
 #$username = $_SESSION[$sid];
-setcookie("CGISESSIDX", "", time() - 3600);
-unset($_SESSION[$sid]);
+//setcookie("CGISESSIDX", "", time() - 3600);
+unset($_SESSION['username']);
 
 
 

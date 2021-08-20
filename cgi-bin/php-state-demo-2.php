@@ -5,17 +5,17 @@ session_start();
 
 #header("Cache-Control: no-cache");
 
-$sid = $_COOKIE['CGISESSIDX'];
+//$sid = $_COOKIE['CGISESSID'];
 #$username = $_POST['username'];
-if(is_null($sid)){
-    $username = NULL;
-}
-else{
+// if(is_null($sid)){
+//     $username = NULL;
+// }
+// else{
     
-    $username = $_SESSION[$sid];
-}
+//     $username = $_SESSION['username'];
+// }
 #setcookie("CGISESSID", session_id());
-
+$username = $_SESSION['username'];
 
 header("Content-Type: text/html");
 

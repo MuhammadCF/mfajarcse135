@@ -3,19 +3,19 @@
 
 session_start();
 
-setcookie("CGISESSIDX", session_id());
+//setcookie("CGISESSID", session_id());
 #header("Cache-Control: no-cache");
 
 #$sid = $_COOKIE['CGISESSID'];
-if(is_null($_SESSION[session_id()])){
+if(is_null($_SESSION['username'])){
     
     $username = $_POST['username'];
 }
 else{
-    $username = $_SESSION[session_id()];
+    $username = $_SESSION['username'];
     
 }
-$_SESSION[session_id()] = $username;
+$_SESSION['username'] = $username;
 
 
 
