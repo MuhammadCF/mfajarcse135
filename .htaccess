@@ -4,6 +4,6 @@ AuthUserFile /etc/apache2/.htpasswd
 Require valid-user
 ErrorDocument 404 /404.html
 #AddType application/x-httpd-php .php
-LoadModule php7_module /usr/lib/apache2/modules/libphp7.4.so
-AddType application/x-httpd-php .php
+#LoadModule php7_module /usr/lib/apache2/modules/libphp7.4.so
+#AddType application/x-httpd-php .php
 
