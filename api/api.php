@@ -133,10 +133,10 @@ class Route{
 
 
 // Post route example
-Route::add('/static/',function(){
+Route::add('/static',function(){
 
-    header("Cache-Control: no-cache");
-    header("Content-Type: application/json");
+    //header("Cache-Control: no-cache");
+    //header("Content-Type: application/json");
 
     echo <<<EOL
 
