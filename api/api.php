@@ -58,11 +58,3 @@ Route::add('/static/',function(){
 Route::run('/');
 
 ?>
-
-
-<!-- <?php
-
-$myRoot = $_SERVER['DOCUMENT_ROOT'];
-echo "$myRoot";
-?> -->
-
