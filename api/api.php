@@ -1,6 +1,7 @@
-<!-- <?php
+<?php
 // Include router class
-include('./Route.php');
+$myRoot = $_SERVER['DOCUMENT_ROOT'];
+include("$myRoot" . "/api/Route.php");
 
 // // Add base route (startpage)
 // Route::add('/',function(){
@@ -56,12 +57,12 @@ Route::add('/static/',function(){
 
 Route::run('/');
 
-?> -->
+?>
 
 
-<?php
+<!-- <?php
 
 $myRoot = $_SERVER['DOCUMENT_ROOT'];
 echo "$myRoot";
-?>
+?> -->
 
