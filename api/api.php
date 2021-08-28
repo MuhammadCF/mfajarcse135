@@ -1,6 +1,6 @@
-<!-- <?php
+<?php
 // Include router class
-include('Route.php');
+include('./Route.php');
 
 // // Add base route (startpage)
 // Route::add('/',function(){
@@ -56,9 +56,9 @@ Route::add('/static/',function(){
 
 Route::run('/');
 
-?> -->
+?>
 
-<?php
+<!-- <?php
 
 echo "test";
-?>
+?> -->
