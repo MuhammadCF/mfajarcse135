@@ -32,7 +32,7 @@ export const data = {
     userAgent: null,
     language: null,
     acceptsCookies: null,
-    screenDimmensions: {
+    screenDimensions: {
       inner: {
         innerWidth: null,
         innerHeight: null
