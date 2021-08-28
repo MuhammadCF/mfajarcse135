@@ -21,7 +21,8 @@
   "profile": {
     "name": "typicode"
   },
-  "static": {
+  "static": [{
+    "id": 1,
     "userAgent": null,
     "language": null,
     "acceptsCookies": null,
@@ -35,4 +36,6 @@
         "outerHeight": null
     }
     }
+    }
+    ]
 }
