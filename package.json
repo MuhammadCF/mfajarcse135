@@ -1,0 +1,23 @@
+{
+  "name": "mfajarcse135.site",
+  "version": "1.0.0",
+  "description": "mfajarcse135.site is a cse135 site for summer 2021 UCSD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadCF/mfajarcse135.git"
+  },
+  "author": "MuhammadFajar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadCF/mfajarcse135/issues"
+  },
+  "homepage": "https://github.com/MuhammadCF/mfajarcse135#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
