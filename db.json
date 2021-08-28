@@ -20,5 +20,19 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "static": {
+    "userAgent": null,
+    "language": null,
+    "acceptsCookies": null,
+    "screenDimmensions": {
+    "inner": {
+        "innerWidth": null,
+        "innerHeight": null
+    },
+    "outer": {
+        "outerWidth": null,
+        "outerHeight": null
+    }
+    }
 }
