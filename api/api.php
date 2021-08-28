@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 // Include router class
 include('./Route.php');
 
@@ -56,9 +56,10 @@ Route::add('/static/',function(){
 
 Route::run('/');
 
-?>
-
-<!-- <?php
-
-echo "test";
 ?> -->
+
+<?php
+
+$myRoot = $_SERVER['DOCUMENT_ROOT'];
+echo "$myRoot";
+?>
