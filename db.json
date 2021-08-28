@@ -23,19 +23,19 @@
   },
   "static": [{
     "id": 1,
-    "userAgent": null,
-    "language": null,
-    "acceptsCookies": null,
+    "userAgent": "example",
+    "language": "example",
+    "acceptsCookies": "example",
     "screenDimmensions": {
-    "inner": {
-        "innerWidth": null,
-        "innerHeight": null
-    },
-    "outer": {
-        "outerWidth": null,
-        "outerHeight": null
+        "inner": {
+            "innerWidth": "example",
+            "innerHeight": "example"
+        },
+        "outer": {
+            "outerWidth": "example",
+            "outerHeight": "example"
+        }
     }
     }
-    }
-    ]
+  ]
 }
