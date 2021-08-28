@@ -1,8 +1,8 @@
 <?php
 // Include router class
 $myRoot = $_SERVER['DOCUMENT_ROOT'];
-include("$myRoot" . "/api/Route.php");
-
+//include("$myRoot" . "/api/Route.php");
+include('./Route.php');
 // // Add base route (startpage)
 // Route::add('/',function(){
 //     echo 'Welcome :-)';
