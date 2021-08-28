@@ -31,6 +31,10 @@ include('Route.php');
 
 // Post route example
 Route::add('/static/',function(){
+
+    header("Cache-Control: no-cache");
+    header("Content-Type: application/json");
+
     echo <<<EOL
 
     static: {
