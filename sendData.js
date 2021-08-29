@@ -6,10 +6,10 @@ function sendInit(){
     let store = window.sessionStorage;
 
     store.setItem('static', JSON.stringify(data.static));
-    store.setItem('performance', JSON.stringify(data.performance));
     setTimeout(function (){
-        store.setItem('activity', JSON.stringify(data.activity));
+        store.setItem('performance', JSON.stringify(data.performance));
     }, 1000);
+    store.setItem('activity', JSON.stringify(data.activity));
     
 }
 
