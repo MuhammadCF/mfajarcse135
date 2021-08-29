@@ -7,9 +7,10 @@ function sendInit(){
 
     store.setItem('static', JSON.stringify(data.static));
     store.setItem('performance', JSON.stringify(data.performance));
-    store.setItem('activity', JSON.stringify(data.activity));
-
-
+    setTimeout(function (){
+        store.setItem('activity', JSON.stringify(data.activity));
+    }, 1000);
+    
 }
 
 window.addEventListener('load',sendInit);
